@@ -3,6 +3,8 @@ package com.olx.cursoandroid.jamiltondamasceno.vendafacil.activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -12,7 +14,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
-import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.Toast;
 
@@ -37,9 +38,9 @@ public class AnunciosActivity extends AppCompatActivity {
 
     private FirebaseAuth autenticacao;
     private RecyclerView recyclerAnunciosPublicos;
-    private Button buttonRegiao, buttonCategoria;
+
     private AdapterAnuncios adapterAnuncios;
-    private List<Anuncio> listaAnuncios = new ArrayList<>();
+    private final List<Anuncio> listaAnuncios = new ArrayList<>();
     private DatabaseReference anunciosPublicosRef;
     private AlertDialog dialog;
     private String filtroEstado = "";
@@ -106,7 +107,7 @@ public class AnunciosActivity extends AppCompatActivity {
         //Configura spinner de estados
         final Spinner spinnerEstado = viewSpinner.findViewById(R.id.spinnerFiltro);
         String[] estados = getResources().getStringArray(R.array.estados);
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(
+        ArrayAdapter<String> adapter = new ArrayAdapter<>(
                 this, android.R.layout.simple_spinner_item,
                 estados
         );
@@ -138,7 +139,7 @@ public class AnunciosActivity extends AppCompatActivity {
 
     public void filtrarPorCategoria(View view){
 
-        if( filtrandoPorEstado == true ){
+        if( filtrandoPorEstado ){
 
             AlertDialog.Builder dialogEstado = new AlertDialog.Builder(this);
             dialogEstado.setTitle("Selecione a categoria desejada");
@@ -149,7 +150,7 @@ public class AnunciosActivity extends AppCompatActivity {
             //Configura spinner de categorias
             final Spinner spinnerCategoria = viewSpinner.findViewById(R.id.spinnerFiltro);
             String[] estados = getResources().getStringArray(R.array.categorias);
-            ArrayAdapter<String> adapter = new ArrayAdapter<String>(
+            ArrayAdapter<String> adapter = new ArrayAdapter<>(
                     this, android.R.layout.simple_spinner_item,
                     estados
             );
@@ -193,7 +194,7 @@ public class AnunciosActivity extends AppCompatActivity {
 
         anunciosPublicosRef.addValueEventListener(new ValueEventListener() {
             @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 listaAnuncios.clear();
                 for(DataSnapshot anuncios: dataSnapshot.getChildren() ){
 
@@ -208,7 +209,7 @@ public class AnunciosActivity extends AppCompatActivity {
             }
 
             @Override
-            public void onCancelled(DatabaseError databaseError) {
+            public void onCancelled(@NonNull DatabaseError databaseError) {
 
             }
         });
@@ -224,7 +225,7 @@ public class AnunciosActivity extends AppCompatActivity {
 
         anunciosPublicosRef.addValueEventListener(new ValueEventListener() {
             @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 listaAnuncios.clear();
                 for (DataSnapshot categorias: dataSnapshot.getChildren() ){
                     for(DataSnapshot anuncios: categorias.getChildren() ){
@@ -241,7 +242,7 @@ public class AnunciosActivity extends AppCompatActivity {
             }
 
             @Override
-            public void onCancelled(DatabaseError databaseError) {
+            public void onCancelled(@NonNull DatabaseError databaseError) {
 
             }
         });
@@ -260,7 +261,7 @@ public class AnunciosActivity extends AppCompatActivity {
         listaAnuncios.clear();
         anunciosPublicosRef.addValueEventListener(new ValueEventListener() {
             @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
 
                 for(DataSnapshot estados: dataSnapshot.getChildren()){
                     for (DataSnapshot categorias: estados.getChildren() ){
@@ -280,7 +281,7 @@ public class AnunciosActivity extends AppCompatActivity {
             }
 
             @Override
-            public void onCancelled(DatabaseError databaseError) {
+            public void onCancelled(@NonNull DatabaseError databaseError) {
 
             }
         });
