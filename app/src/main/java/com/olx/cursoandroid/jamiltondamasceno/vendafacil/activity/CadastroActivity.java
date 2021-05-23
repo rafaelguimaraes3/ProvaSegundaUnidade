@@ -1,8 +1,9 @@
 package com.olx.cursoandroid.jamiltondamasceno.vendafacil.activity;
 
 import android.content.Intent;
-import android.support.annotation.NonNull;
-import android.support.v7.app.AppCompatActivity;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -17,7 +18,7 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseAuthInvalidCredentialsException;
 import com.google.firebase.auth.FirebaseAuthUserCollisionException;
 import com.google.firebase.auth.FirebaseAuthWeakPasswordException;
-import com.olx.cursoandroid.jamiltondamasceno.vendafacil.R;
+import com.olx.cursoandroid.jamiltondamasceno.olxapp.R;
 import com.olx.cursoandroid.jamiltondamasceno.vendafacil.helper.ConfiguracaoFirebase;
 
 public class CadastroActivity extends AppCompatActivity {

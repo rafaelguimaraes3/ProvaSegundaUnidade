@@ -2,13 +2,14 @@ package com.olx.cursoandroid.jamiltondamasceno.vendafacil.activity;
 
 import android.content.Intent;
 import android.net.Uri;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.olx.cursoandroid.jamiltondamasceno.vendafacil.R;
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.olx.cursoandroid.jamiltondamasceno.olxapp.R;
 import com.olx.cursoandroid.jamiltondamasceno.vendafacil.model.Anuncio;
 import com.squareup.picasso.Picasso;
 import com.synnapps.carouselview.CarouselView;

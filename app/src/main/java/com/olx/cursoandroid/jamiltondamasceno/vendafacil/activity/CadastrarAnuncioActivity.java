@@ -1,6 +1,9 @@
 package com.olx.cursoandroid.jamiltondamasceno.vendafacil.activity;
 
 import android.Manifest;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -8,8 +11,6 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.provider.MediaStore;
-import android.support.annotation.NonNull;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -25,7 +26,7 @@ import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
-import com.olx.cursoandroid.jamiltondamasceno.vendafacil.R;
+import com.olx.cursoandroid.jamiltondamasceno.olxapp.R;
 import com.olx.cursoandroid.jamiltondamasceno.vendafacil.helper.ConfiguracaoFirebase;
 import com.olx.cursoandroid.jamiltondamasceno.vendafacil.helper.Permissoes;
 import com.olx.cursoandroid.jamiltondamasceno.vendafacil.model.Anuncio;
@@ -105,7 +106,7 @@ public class CadastrarAnuncioActivity extends AppCompatActivity
             @Override
             public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
 
-                Uri firebaseUrl = taskSnapshot.getDownloadUrl();
+                Uri firebaseUrl = taskSnapshot.getUploadSessionUri();
                 String urlConvertida = firebaseUrl.toString();
 
                 listaURLFotos.add( urlConvertida );
