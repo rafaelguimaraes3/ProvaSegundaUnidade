@@ -39,7 +39,7 @@ public class AnunciosActivity extends AppCompatActivity {
     private RecyclerView recyclerAnunciosPublicos;
     private Button buttonRegiao, buttonCategoria;
     private AdapterAnuncios adapterAnuncios;
-    private List<Anuncio> listaAnuncios = new ArrayList<>();
+    private final List<Anuncio> listaAnuncios = new ArrayList<>();
     private DatabaseReference anunciosPublicosRef;
     private AlertDialog dialog;
     private String filtroEstado = "";
