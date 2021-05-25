@@ -1,52 +1,81 @@
 {
   "project_info": {
-    "project_number": "514756330629",
-    "firebase_url": "https://olx-app-6ce79.firebaseio.com",
-    "project_id": "olx-app-6ce79",
-    "storage_bucket": "olx-app-6ce79.appspot.com"
+    "project_number": "448433368060",
+    "project_id": "projeto02-46e2b",
+    "storage_bucket": "projeto02-46e2b.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:514756330629:android:85b22209603c53fa",
+        "mobilesdk_app_id": "1:448433368060:android:1aeac3849749661f9b6079",
         "android_client_info": {
           "package_name": "com.olx.cursoandroid.jamiltondamasceno.olxapp"
         }
       },
       "oauth_client": [
         {
-          "client_id": "514756330629-rdc9lkv0ad0gginfv42oodibg8pr903a.apps.googleusercontent.com",
+          "client_id": "448433368060-snv1r5if37n8t91eiatrkhduhe067hgi.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.olx.cursoandroid.jamiltondamasceno.olxapp",
-            "certificate_hash": "691d69cba8233c0c9efcceab7358ecb069d55ca1"
+            "certificate_hash": "803a8d2e344085a8612b7b1a3442c01a8aeba141"
           }
         },
         {
-          "client_id": "514756330629-2d4loa9qebsi49n2v1ahpm590elpbabu.apps.googleusercontent.com",
+          "client_id": "448433368060-qq4lekh7b46aqdfbb3gj5gvg5tr358b7.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAhEAuWOWklxWDctJCOkQ0fYo-u-R-mKn8"
+          "current_key": "AIzaSyC_JvlqczSwFidBcZ5I9LA64qjhj-NPikw"
         }
       ],
       "services": {
-        "analytics_service": {
-          "status": 1
-        },
         "appinvite_service": {
-          "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "514756330629-2d4loa9qebsi49n2v1ahpm590elpbabu.apps.googleusercontent.com",
+              "client_id": "448433368060-qq4lekh7b46aqdfbb3gj5gvg5tr358b7.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:448433368060:android:5d9488710efd40ef9b6079",
+        "android_client_info": {
+          "package_name": "rafael.guimaraes.projeto02"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "448433368060-u2vvpvrdoigi8p42tpj34pqustefrkna.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "rafael.guimaraes.projeto02",
+            "certificate_hash": "803a8d2e344085a8612b7b1a3442c01a8aeba141"
+          }
         },
-        "ads_service": {
-          "status": 2
+        {
+          "client_id": "448433368060-qq4lekh7b46aqdfbb3gj5gvg5tr358b7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_JvlqczSwFidBcZ5I9LA64qjhj-NPikw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "448433368060-qq4lekh7b46aqdfbb3gj5gvg5tr358b7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }

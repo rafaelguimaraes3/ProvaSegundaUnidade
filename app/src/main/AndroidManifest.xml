@@ -16,14 +16,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.olx.cursoandroid.jamiltondamasceno.vendafacil.activity.AnunciosActivity">
+        <activity android:name="com.olx.cursoandroid.jamiltondamasceno.vendafacil.activity.CadastrarAnuncioActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.olx.cursoandroid.jamiltondamasceno.vendafacil.activity.CadastroActivity" />
+        <activity android:name="com.olx.cursoandroid.jamiltondamasceno.vendafacil.activity.AnunciosActivity" />
         <activity
             android:name="com.olx.cursoandroid.jamiltondamasceno.vendafacil.activity.MeusAnunciosActivity"
             android:label="@string/title_activity_meus_anuncios"
@@ -33,7 +33,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.olx.cursoandroid.jamiltondamasceno.vendafacil.activity.AnunciosActivity" />
         </activity>
-        <activity android:name="com.olx.cursoandroid.jamiltondamasceno.vendafacil.activity.CadastrarAnuncioActivity" />
+        <activity android:name="com.olx.cursoandroid.jamiltondamasceno.vendafacil.activity.CadastroActivity" />
         <activity android:name="com.olx.cursoandroid.jamiltondamasceno.vendafacil.activity.DetalhesProdutoActivity"
             android:parentActivityName="com.olx.cursoandroid.jamiltondamasceno.vendafacil.activity.AnunciosActivity"></activity>
     </application>

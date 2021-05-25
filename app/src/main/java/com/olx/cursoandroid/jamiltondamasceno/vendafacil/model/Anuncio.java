@@ -6,9 +6,7 @@ import com.olx.cursoandroid.jamiltondamasceno.vendafacil.helper.ConfiguracaoFire
 import java.io.Serializable;
 import java.util.List;
 
-/**
- * Created by jamiltondamasceno
- */
+
 
 public class Anuncio implements Serializable {
 
