@@ -1,4 +1,4 @@
-package com.olx.cursoandroid.jamiltondamasceno.vendafacil;
+package br.com.mobile.segundaprova.vendafacil;
 
 import org.junit.Test;
 

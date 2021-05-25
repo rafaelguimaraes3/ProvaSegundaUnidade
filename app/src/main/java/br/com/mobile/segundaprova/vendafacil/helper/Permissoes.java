@@ -1,4 +1,4 @@
-package com.olx.cursoandroid.jamiltondamasceno.vendafacil.helper;
+package br.com.mobile.segundaprova.vendafacil.helper;
 
 import android.app.Activity;
 import android.content.pm.PackageManager;
@@ -9,10 +9,6 @@ import androidx.core.content.ContextCompat;
 
 import java.util.ArrayList;
 import java.util.List;
-
-/**
- * Created by jamiltondamasceno
- */
 
 public class Permissoes {
 

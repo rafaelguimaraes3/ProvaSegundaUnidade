@@ -1,4 +1,4 @@
-package com.olx.cursoandroid.jamiltondamasceno.vendafacil.activity;
+package br.com.mobile.segundaprova.vendafacil.activity;
 
 import android.content.Intent;
 
@@ -18,8 +18,8 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseAuthInvalidCredentialsException;
 import com.google.firebase.auth.FirebaseAuthUserCollisionException;
 import com.google.firebase.auth.FirebaseAuthWeakPasswordException;
-import com.olx.cursoandroid.jamiltondamasceno.olxapp.R;
-import com.olx.cursoandroid.jamiltondamasceno.vendafacil.helper.ConfiguracaoFirebase;
+import com.com.mobile.segundaprova.olxapp.R;
+import br.com.mobile.segundaprova.vendafacil.helper.ConfiguracaoFirebase;
 
 public class CadastroActivity extends AppCompatActivity {
 

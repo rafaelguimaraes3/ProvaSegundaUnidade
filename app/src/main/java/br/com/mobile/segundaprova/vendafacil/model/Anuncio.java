@@ -1,14 +1,10 @@
-package com.olx.cursoandroid.jamiltondamasceno.vendafacil.model;
+package br.com.mobile.segundaprova.vendafacil.model;
 
 import com.google.firebase.database.DatabaseReference;
-import com.olx.cursoandroid.jamiltondamasceno.vendafacil.helper.ConfiguracaoFirebase;
+import br.com.mobile.segundaprova.vendafacil.helper.ConfiguracaoFirebase;
 
 import java.io.Serializable;
 import java.util.List;
-
-/**
- * Created by jamiltondamasceno
- */
 
 public class Anuncio implements Serializable {
 

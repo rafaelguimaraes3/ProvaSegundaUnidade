@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.olx.cursoandroid.jamiltondamasceno.olxapp">
+    package="com.com.mobile.segundaprova.olxapp">
 
     <!-- Permissoes internet -->
     <uses-permission android:name="android.permission.INTERNET" />
@@ -16,26 +16,26 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.olx.cursoandroid.jamiltondamasceno.vendafacil.activity.AnunciosActivity">
+        <activity android:name="br.com.mobile.segundaprova.vendafacil.activity.AnunciosActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.olx.cursoandroid.jamiltondamasceno.vendafacil.activity.CadastroActivity" />
+        <activity android:name="br.com.mobile.segundaprova.vendafacil.activity.CadastroActivity" />
         <activity
-            android:name="com.olx.cursoandroid.jamiltondamasceno.vendafacil.activity.MeusAnunciosActivity"
+            android:name="br.com.mobile.segundaprova.vendafacil.activity.MeusAnunciosActivity"
             android:label="@string/title_activity_meus_anuncios"
-            android:parentActivityName="com.olx.cursoandroid.jamiltondamasceno.vendafacil.activity.AnunciosActivity"
+            android:parentActivityName="br.com.mobile.segundaprova.vendafacil.activity.AnunciosActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.olx.cursoandroid.jamiltondamasceno.vendafacil.activity.AnunciosActivity" />
+                android:value="br.com.mobile.segundaprova.vendafacil.activity.AnunciosActivity" />
         </activity>
-        <activity android:name="com.olx.cursoandroid.jamiltondamasceno.vendafacil.activity.CadastrarAnuncioActivity" />
-        <activity android:name="com.olx.cursoandroid.jamiltondamasceno.vendafacil.activity.DetalhesProdutoActivity"
-            android:parentActivityName="com.olx.cursoandroid.jamiltondamasceno.vendafacil.activity.AnunciosActivity"></activity>
+        <activity android:name="br.com.mobile.segundaprova.vendafacil.activity.CadastrarAnuncioActivity" />
+        <activity android:name="br.com.mobile.segundaprova.vendafacil.activity.DetalhesProdutoActivity"
+            android:parentActivityName="br.com.mobile.segundaprova.vendafacil.activity.AnunciosActivity"></activity>
     </application>
 
 </manifest>

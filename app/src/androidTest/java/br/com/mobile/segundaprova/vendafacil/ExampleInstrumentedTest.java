@@ -1,4 +1,4 @@
-package com.olx.cursoandroid.jamiltondamasceno.vendafacil;
+package br.com.mobile.segundaprova.vendafacil;
 
 import android.content.Context;
 import androidx.test.InstrumentationRegistry;
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.olx.cursoandroid.jamiltondamasceno.olxapp", appContext.getPackageName());
+        assertEquals("br.com.mobile.segundaprova.vendafacil", appContext.getPackageName());
     }
 }

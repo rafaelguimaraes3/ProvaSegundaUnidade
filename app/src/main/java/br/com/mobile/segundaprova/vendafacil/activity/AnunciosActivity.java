@@ -1,4 +1,4 @@
-package com.olx.cursoandroid.jamiltondamasceno.vendafacil.activity;
+package br.com.mobile.segundaprova.vendafacil.activity;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -22,11 +22,11 @@ import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.ValueEventListener;
-import com.olx.cursoandroid.jamiltondamasceno.olxapp.R;
-import com.olx.cursoandroid.jamiltondamasceno.vendafacil.adapter.AdapterAnuncios;
-import com.olx.cursoandroid.jamiltondamasceno.vendafacil.helper.ConfiguracaoFirebase;
-import com.olx.cursoandroid.jamiltondamasceno.vendafacil.helper.RecyclerItemClickListener;
-import com.olx.cursoandroid.jamiltondamasceno.vendafacil.model.Anuncio;
+import com.com.mobile.segundaprova.olxapp.R;
+import br.com.mobile.segundaprova.vendafacil.adapter.AdapterAnuncios;
+import br.com.mobile.segundaprova.vendafacil.helper.ConfiguracaoFirebase;
+import br.com.mobile.segundaprova.vendafacil.helper.RecyclerItemClickListener;
+import br.com.mobile.segundaprova.vendafacil.model.Anuncio;
 
 import java.util.ArrayList;
 import java.util.Collections;

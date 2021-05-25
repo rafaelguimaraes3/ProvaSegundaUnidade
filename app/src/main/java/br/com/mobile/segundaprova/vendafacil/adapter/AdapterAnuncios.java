@@ -1,4 +1,4 @@
-package com.olx.cursoandroid.jamiltondamasceno.vendafacil.adapter;
+package br.com.mobile.segundaprova.vendafacil.adapter;
 
 import android.content.Context;
 import androidx.recyclerview.widget.RecyclerView;
@@ -7,19 +7,15 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-import com.olx.cursoandroid.jamiltondamasceno.olxapp.R;
+import com.com.mobile.segundaprova.olxapp.R;
 
 import androidx.annotation.NonNull;
 
 
-import com.olx.cursoandroid.jamiltondamasceno.vendafacil.model.Anuncio;
+import br.com.mobile.segundaprova.vendafacil.model.Anuncio;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;
-
-/**
- * Created by jamiltondamasceno
- */
 
 public class AdapterAnuncios extends RecyclerView.Adapter<AdapterAnuncios.MyViewHolder> {
 

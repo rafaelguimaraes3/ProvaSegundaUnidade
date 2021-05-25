@@ -1,4 +1,4 @@
-package com.olx.cursoandroid.jamiltondamasceno.vendafacil.helper;
+package br.com.mobile.segundaprova.vendafacil.helper;
 
 import android.content.Context;
 import androidx.recyclerview.widget.RecyclerView;

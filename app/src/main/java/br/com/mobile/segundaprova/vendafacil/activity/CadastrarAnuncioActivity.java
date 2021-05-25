@@ -1,4 +1,4 @@
-package com.olx.cursoandroid.jamiltondamasceno.vendafacil.activity;
+package br.com.mobile.segundaprova.vendafacil.activity;
 
 import android.Manifest;
 
@@ -23,13 +23,12 @@ import android.widget.Toast;
 import com.blackcat.currencyedittext.CurrencyEditText;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
-import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
-import com.olx.cursoandroid.jamiltondamasceno.olxapp.R;
-import com.olx.cursoandroid.jamiltondamasceno.vendafacil.helper.ConfiguracaoFirebase;
-import com.olx.cursoandroid.jamiltondamasceno.vendafacil.helper.Permissoes;
-import com.olx.cursoandroid.jamiltondamasceno.vendafacil.model.Anuncio;
+import com.com.mobile.segundaprova.olxapp.R;
+import br.com.mobile.segundaprova.vendafacil.helper.ConfiguracaoFirebase;
+import br.com.mobile.segundaprova.vendafacil.helper.Permissoes;
+import br.com.mobile.segundaprova.vendafacil.model.Anuncio;
 import com.santalu.maskedittext.MaskEditText;
 
 import java.util.ArrayList;

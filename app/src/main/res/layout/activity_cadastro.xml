@@ -7,7 +7,7 @@
     android:layout_margin="16dp"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context="com.olx.cursoandroid.jamiltondamasceno.vendafacil.activity.CadastroActivity">
+    tools:context="br.com.mobile.segundaprova.vendafacil.activity.CadastroActivity">
 
     <ImageView
         android:id="@+id/imageView"

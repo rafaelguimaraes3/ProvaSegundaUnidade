@@ -1,4 +1,4 @@
-package com.olx.cursoandroid.jamiltondamasceno.vendafacil.activity;
+package br.com.mobile.segundaprova.vendafacil.activity;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -9,8 +9,8 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.olx.cursoandroid.jamiltondamasceno.olxapp.R;
-import com.olx.cursoandroid.jamiltondamasceno.vendafacil.model.Anuncio;
+import com.com.mobile.segundaprova.olxapp.R;
+import br.com.mobile.segundaprova.vendafacil.model.Anuncio;
 import com.squareup.picasso.Picasso;
 import com.synnapps.carouselview.CarouselView;
 import com.synnapps.carouselview.ImageListener;

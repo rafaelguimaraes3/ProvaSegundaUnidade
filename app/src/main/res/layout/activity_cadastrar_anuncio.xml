@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
-    tools:context="com.olx.cursoandroid.jamiltondamasceno.vendafacil.activity.CadastrarAnuncioActivity">
+    tools:context="br.com.mobile.segundaprova.vendafacil.activity.CadastrarAnuncioActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
